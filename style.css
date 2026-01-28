@@ -48,20 +48,50 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 40px;
+    padding: 20px 40px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.logo {
-    font-size: 2.5rem;
+/* Logo Container */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.main-logo {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 0 10px rgba(0, 219, 222, 0.3));
+    transition: transform 0.3s ease;
+}
+
+.main-logo:hover {
+    transform: scale(1.05);
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo-name {
+    font-size: 2.2rem;
     font-weight: 700;
     background: linear-gradient(90deg, #00dbde, #fc00ff);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    line-height: 1;
+}
+
+.logo-tagline {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-top: 5px;
+    letter-spacing: 1px;
 }
 
 .github-badge {
@@ -342,14 +372,42 @@ h1 {
     margin: 0 auto;
 }
 
+/* Footer Logo */
+.footer-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
 .footer-logo {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    filter: brightness(0.8);
+}
+
+.footer-logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-logo-name {
     font-size: 1.8rem;
     font-weight: 700;
     background: linear-gradient(90deg, #00dbde, #fc00ff);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    margin-bottom: 15px;
+    line-height: 1;
+}
+
+.footer-tagline {
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 3px;
 }
 
 .copyright {
@@ -433,6 +491,16 @@ h1 {
         flex-direction: column;
         gap: 15px;
         padding: 20px;
+        text-align: center;
+    }
+    
+    .logo-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .logo-text {
+        align-items: center;
     }
     
     .main-content {
@@ -443,8 +511,8 @@ h1 {
         font-size: 2.2rem;
     }
     
-    .logo {
-        font-size: 2.2rem;
+    .logo-name {
+        font-size: 1.8rem;
     }
     
     .services-grid {
@@ -462,6 +530,15 @@ h1 {
     
     .footer {
         padding: 25px 20px;
+    }
+    
+    .footer-logo-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-logo-text {
+        align-items: center;
     }
 }
 
@@ -490,5 +567,9 @@ h1 {
     
     .service-card {
         padding: 20px;
+    }
+    
+    .main-logo, .footer-logo {
+        height: 50px;
     }
 }
