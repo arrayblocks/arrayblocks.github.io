@@ -83,16 +83,4 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
-    
-    // Add animation to logo on hover
-    const mainLogo = document.querySelector('.main-logo');
-    if (mainLogo) {
-        mainLogo.addEventListener('mouseenter', function() {
-            this.style.transform = 'scale(1.1) rotate(5deg)';
-        });
-        
-        mainLogo.addEventListener('mouseleave', function() {
-            this.style.transform = 'scale(1) rotate(0deg)';
-        });
-    }
 });
