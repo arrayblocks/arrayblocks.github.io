@@ -48,50 +48,20 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 25px 40px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Logo Container */
-.logo-container {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.main-logo {
-    width: 180px;
-    height: 60px;
-    object-fit: contain;
-    filter: drop-shadow(0 0 10px rgba(0, 219, 222, 0.3));
-    transition: transform 0.3s ease;
-}
-
-.main-logo:hover {
-    transform: scale(1.05);
-}
-
-.logo-text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.logo-name {
-    font-size: 2.2rem;
+.logo {
+    font-size: 2.5rem;
     font-weight: 700;
     background: linear-gradient(90deg, #00dbde, #fc00ff);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    line-height: 1;
-}
-
-.logo-tagline {
-    font-size: 0.9rem;
-    color: #aaa;
-    margin-top: 5px;
-    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .github-badge {
@@ -372,42 +342,14 @@ h1 {
     margin: 0 auto;
 }
 
-/* Footer Logo */
-.footer-logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 20px;
-}
-
 .footer-logo {
-    width: 150px;
-    height: 50px;
-    object-fit: contain;
-    filter: brightness(0.8);
-}
-
-.footer-logo-text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.footer-logo-name {
     font-size: 1.8rem;
     font-weight: 700;
     background: linear-gradient(90deg, #00dbde, #fc00ff);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    line-height: 1;
-}
-
-.footer-tagline {
-    font-size: 0.8rem;
-    color: #888;
-    margin-top: 3px;
+    margin-bottom: 15px;
 }
 
 .copyright {
@@ -491,16 +433,6 @@ h1 {
         flex-direction: column;
         gap: 15px;
         padding: 20px;
-        text-align: center;
-    }
-    
-    .logo-container {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .logo-text {
-        align-items: center;
     }
     
     .main-content {
@@ -511,14 +443,8 @@ h1 {
         font-size: 2.2rem;
     }
     
-    .logo-name {
-        font-size: 1.8rem;
-    }
-    
-    /* Adjusted logo sizes for mobile */
-    .main-logo {
-        width: 150px;
-        height: 50px;
+    .logo {
+        font-size: 2.2rem;
     }
     
     .services-grid {
@@ -536,20 +462,6 @@ h1 {
     
     .footer {
         padding: 25px 20px;
-    }
-    
-    .footer-logo-container {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .footer-logo-text {
-        align-items: center;
-    }
-    
-    .footer-logo {
-        width: 120px;
-        height: 40px;
     }
 }
 
@@ -578,33 +490,5 @@ h1 {
     
     .service-card {
         padding: 20px;
-    }
-    
-    /* Further reduced logo sizes for very small screens */
-    .main-logo {
-        width: 130px;
-        height: 45px;
-    }
-    
-    .footer-logo {
-        width: 100px;
-        height: 35px;
-    }
-}
-
-/* Extra Small Screens */
-@media (max-width: 360px) {
-    .main-logo {
-        width: 110px;
-        height: 40px;
-    }
-    
-    .logo-name {
-        font-size: 1.5rem;
-    }
-    
-    .footer-logo {
-        width: 90px;
-        height: 30px;
     }
 }
