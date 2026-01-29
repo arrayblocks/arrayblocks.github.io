@@ -628,6 +628,89 @@
     margin-top: 15px;
 }
         
+.responsive-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 576px) {
+    .responsive-image {
+        height: 220px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero {
+        padding: 50px 0 40px;
+    }
+
+    .hero-title {
+        font-size: 26px;
+        line-height: 1.3;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .hero-badge {
+        font-size: 12px;
+        padding: 8px 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .article-content {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .article-content h2 {
+        font-size: 24px;
+    }
+
+    .article-content h3 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .sidebar-widget {
+        padding: 20px;
+    }
+
+    .services-list li {
+        margin-bottom: 12px;
+    }
+}
+@media (max-width: 576px) {
+    .cta-section {
+        padding: 50px 20px;
+        border-radius: 0;
+    }
+
+    .cta-title {
+        font-size: 26px;
+    }
+
+    .cta-description {
+        font-size: 16px;
+    }
+
+    .cta-button {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .stat-number {
+        font-size: 34px;
+    }
+}
+
+
         /* Responsive Design */
         @media (max-width: 992px) {
             .article-container {
@@ -724,10 +807,11 @@
         <div class="container">
             <div class="image-container">
                  <img 
-        src="image/csd-compressed.jpg" 
-        alt="Best Software Development in Panipat"
-        style="width:100%; height:400px; object-fit:cover;"
-    >
+    src="image/csd-compressed.jpg" 
+    alt="Best Software Development in Panipat"
+    class="responsive-image"
+>
+
                 <div class="image-caption">
                     Panipat's growing IT infrastructure and skilled talent pool make it an ideal destination for software development.
                 </div>
