@@ -6,88 +6,184 @@
     <title>ArrayBlocks - Official GitHub Page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://arrayblocks.net/wp-content/uploads/al_opt_content/IMAGE/arrayblocks.net/wp-content/uploads/2025/12/cropped-arrayblocks-logo.png.bv.webp?bv_host=arrayblocks.net" type="image/x-icon">
 </head>
 <body>
+    <!-- Background Elements -->
+    <div class="bg-pattern"></div>
+    <div class="bg-circle-1"></div>
+    <div class="bg-circle-2"></div>
+    
     <div class="container">
-        <header class="header">
-            <div class="logo">
-                <i class="fas fa-cubes"></i> ArrayBlocks
+        <!-- Header -->
+        <header class="main-header">
+            <div class="header-content">
+                <div class="logo-container">
+                    <img src="https://arrayblocks.net/wp-content/uploads/al_opt_content/IMAGE/arrayblocks.net/wp-content/uploads/2025/12/cropped-arrayblocks-logo.png.bv.webp?bv_host=arrayblocks.net" 
+                         alt="ArrayBlocks Logo" 
+                         class="main-logo"
+                         onerror="this.onerror=null; this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>'">
+                    <div class="logo-text">
+                        <h1 class="logo-title">Array<span>Blocks</span></h1>
+                        <p class="logo-subtitle">Technology Solutions</p>
+                    </div>
+                </div>
+                <div class="header-badge">
+                    <i class="fab fa-github"></i> Official GitHub Repository
+                </div>
             </div>
-            <p class="github-badge">
-                <i class="fab fa-github"></i> GitHub Page
-            </p>
         </header>
-        
+
+        <!-- Main Content -->
         <main class="main-content">
-            <h1>Welcome to ArrayBlocks GitHub</h1>
-            
-            <p class="tagline">
-                This is the official GitHub page for ArrayBlocks. You're being redirected to our main website for the complete experience.
-            </p>
-            
-            <div class="redirect-message">
-                <i class="fas fa-info-circle"></i>
-                You will be automatically redirected to our main website in <span id="countdown">10</span> seconds.
-            </div>
-            
-            <a href="https://arrayblocks.net/" class="main-site-link" id="redirect-link">
-                Visit ArrayBlocks.net Now <i class="fas fa-external-link-alt"></i>
-            </a>
-            
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <div class="hero-text">
+                    <h2 class="hero-title">
+                        Welcome to <span class="highlight-text">ArrayBlocks</span> GitHub
+                    </h2>
+                    <p class="hero-description">
+                        This is the official GitHub repository for ArrayBlocks - A leading technology company specializing in 
+                        blockchain solutions, MLM software development, web applications, and digital transformation services.
+                    </p>
+                    
+                    <!-- Quick Stats -->
+                    <div class="quick-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h3>50+</h3>
+                                <p>Projects</p>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h3>100+</h3>
+                                <p>Clients</p>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-globe"></i>
+                            <div>
+                                <h3>5+</h3>
+                                <p>Countries</p>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h3>98%</h3>
+                                <p>Satisfaction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="visual-card floating">
+                        <div class="card-glow"></div>
+                        <i class="fas fa-cubes"></i>
+                        <h3>Technology Experts</h3>
+                        <p>Innovating Since 2018</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Official Website Link -->
+            <section class="website-section">
+                <h2 class="section-title">
+                    <i class="fas fa-external-link-alt"></i>
+                    Visit Our Official Website
+                </h2>
+                
+                <div class="website-card">
+                    <div class="website-info">
+                        <div class="website-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="website-details">
+                            <h3>Main Website</h3>
+                            <p class="website-url">https://arrayblocks.net</p>
+                            <p class="website-desc">Complete information about our services, portfolio, and contact details</p>
+                        </div>
+                    </div>
+                    <a href="https://arrayblocks.net/" target="_blank" class="website-btn">
+                        <i class="fas fa-external-link-alt"></i>
+                        Visit Now
+                    </a>
+                </div>
+            </section>
+
             <!-- Services Section -->
-            <div class="services-section">
-                <h2><i class="fas fa-cogs"></i> Our Services</h2>
-                <p class="services-subtitle">Comprehensive technology solutions for your business</p>
+            <section class="services-section">
+                <h2 class="section-title">
+                    <i class="fas fa-cogs"></i>
+                    Our Services
+                </h2>
+                <p class="section-subtitle">Comprehensive technology solutions for modern businesses</p>
                 
                 <div class="services-grid">
+                    <!-- Blockchain -->
                     <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fab fa-ethereum"></i>
+                        <div class="service-header">
+                            <div class="service-icon blockchain">
+                                <i class="fab fa-ethereum"></i>
+                            </div>
+                            <h3>Blockchain Solutions</h3>
                         </div>
-                        <h3>Blockchain Solutions</h3>
                         <ul class="service-features">
                             <li><i class="fas fa-check"></i> Smart Contract Development</li>
-                            <li><i class="fas fa-check"></i> DApp Development</li>
-                            <li><i class="fas fa-check"></i> Blockchain Integration</li>
+                            <li><i class="fas fa-check"></i> DApp & DeFi Platforms</li>
                             <li><i class="fas fa-check"></i> Crypto Wallet Development</li>
                             <li><i class="fas fa-check"></i> NFT Marketplace</li>
+                            <li><i class="fas fa-check"></i> Blockchain Integration</li>
                         </ul>
                     </div>
                     
+                    <!-- MLM Software -->
                     <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-network-wired"></i>
+                        <div class="service-header">
+                            <div class="service-icon mlm">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <h3>MLM Software</h3>
                         </div>
-                        <h3>MLM Software</h3>
                         <ul class="service-features">
                             <li><i class="fas fa-check"></i> MLM Platform Development</li>
-                            <li><i class="fas fa-check"></i> Multi-level Marketing Systems</li>
+                            <li><i class="fas fa-check"></i> Binary/Matrix/Unilevel Plans</li>
                             <li><i class="fas fa-check"></i> Commission Management</li>
                             <li><i class="fas fa-check"></i> E-pin & Wallet Systems</li>
                             <li><i class="fas fa-check"></i> Admin Dashboard</li>
                         </ul>
                     </div>
                     
+                    <!-- Web Development -->
                     <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-code"></i>
+                        <div class="service-header">
+                            <div class="service-icon web">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3>Web Development</h3>
                         </div>
-                        <h3>Website Development</h3>
                         <ul class="service-features">
                             <li><i class="fas fa-check"></i> Custom Website Design</li>
                             <li><i class="fas fa-check"></i> E-commerce Solutions</li>
                             <li><i class="fas fa-check"></i> CMS Development</li>
-                            <li><i class="fas fa-check"></i> Responsive Web Design</li>
+                            <li><i class="fas fa-check"></i> Progressive Web Apps</li>
                             <li><i class="fas fa-check"></i> SEO Optimization</li>
                         </ul>
                     </div>
                     
+                    <!-- App Development -->
                     <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-mobile-alt"></i>
+                        <div class="service-header">
+                            <div class="service-icon app">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h3>App Development</h3>
                         </div>
-                        <h3>App Development</h3>
                         <ul class="service-features">
                             <li><i class="fas fa-check"></i> iOS & Android Apps</li>
                             <li><i class="fas fa-check"></i> Cross-platform Development</li>
@@ -96,77 +192,214 @@
                             <li><i class="fas fa-check"></i> API Integration</li>
                         </ul>
                     </div>
+                    
+                    <!-- Custom Software -->
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon software">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h3>Custom Software</h3>
+                        </div>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Enterprise Solutions</li>
+                            <li><i class="fas fa-check"></i> CRM & ERP Systems</li>
+                            <li><i class="fas fa-check"></i> Payment Gateway Integration</li>
+                            <li><i class="fas fa-check"></i> API Development</li>
+                            <li><i class="fas fa-check"></i> Cloud Solutions</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Digital Marketing -->
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon marketing">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3>Digital Marketing</h3>
+                        </div>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> SEO & SEM</li>
+                            <li><i class="fas fa-check"></i> Social Media Marketing</li>
+                            <li><i class="fas fa-check"></i> Content Marketing</li>
+                            <li><i class="fas fa-check"></i> Brand Strategy</li>
+                            <li><i class="fas fa-check"></i> Analytics & Reporting</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            
-            <div class="features">
-                <div class="feature">
-                    <i class="fas fa-code-branch"></i>
-                    <h3>Development</h3>
-                    <p>Explore our projects and development resources</p>
-                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact-section">
+                <h2 class="section-title">
+                    <i class="fas fa-headset"></i>
+                    Connect With Us
+                </h2>
                 
-                <div class="feature">
-                    <i class="fas fa-globe"></i>
-                    <h3>Main Website</h3>
-                    <p>Full website with all features and services</p>
-                </div>
-                
-                <div class="feature">
-                    <i class="fas fa-users"></i>
-                    <h3>Community</h3>
-                    <p>Join our growing developer community</p>
-                </div>
-            </div>
-            
-            <div class="additional-info">
-                <h2>About ArrayBlocks</h2>
-                <p>ArrayBlocks is a technology company specializing in blockchain solutions, MLM software, web development, and mobile applications. We create innovative solutions that drive business growth and digital transformation.</p>
-                
-                <div class="quick-links">
-                    <a href="https://arrayblocks.net/#products" class="quick-link">
-                        <i class="fas fa-box"></i> Products
+                <div class="contact-grid">
+                    <!-- Website -->
+                    <a href="https://arrayblocks.net/" target="_blank" class="contact-card website">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Official Website</h3>
+                            <p>arrayblocks.net</p>
+                        </div>
+                        <i class="fas fa-arrow-right contact-arrow"></i>
                     </a>
-                    <a href="https://arrayblocks.net/#docs" class="quick-link">
-                        <i class="fas fa-book"></i> Documentation
+                    
+                    <!-- Email -->
+                    <a href="mailto:contact@arrayblocks.net" class="contact-card email">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Email</h3>
+                            <p>contact@arrayblocks.net</p>
+                        </div>
+                        <i class="fas fa-arrow-right contact-arrow"></i>
                     </a>
-                    <a href="https://arrayblocks.net/#contact" class="quick-link">
-                        <i class="fas fa-envelope"></i> Contact Us
+                    
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/people/Array-Blocks/61582786569261/" target="_blank" class="contact-card facebook">
+                        <div class="contact-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Facebook</h3>
+                            <p>Array-Blocks</p>
+                        </div>
+                        <i class="fas fa-arrow-right contact-arrow"></i>
+                    </a>
+                    
+                    <!-- Twitter/X -->
+                    <a href="https://x.com/ArrayBlocksNet" target="_blank" class="contact-card twitter">
+                        <div class="contact-icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Twitter / X</h3>
+                            <p>@ArrayBlocksNet</p>
+                        </div>
+                        <i class="fas fa-arrow-right contact-arrow"></i>
+                    </a>
+                    
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/company/arrayblocks/" target="_blank" class="contact-card linkedin">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>LinkedIn</h3>
+                            <p>arrayblocks</p>
+                        </div>
+                        <i class="fas fa-arrow-right contact-arrow"></i>
+                    </a>
+                    
+                    <!-- GitHub -->
+                    <a href="https://github.com/arrayblocks" target="_blank" class="contact-card github">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>GitHub</h3>
+                            <p>arrayblocks</p>
+                        </div>
+                        <i class="fas fa-arrow-right contact-arrow"></i>
                     </a>
                 </div>
-            </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="cta-section">
+                <div class="cta-content">
+                    <h2 class="cta-title">Ready to Transform Your Business?</h2>
+                    <p class="cta-description">
+                        Explore our complete portfolio, case studies, and get a free consultation on our official website.
+                    </p>
+                    
+                    <div class="cta-buttons">
+                        <a href="https://arrayblocks.net/" target="_blank" class="cta-btn primary-btn">
+                            <i class="fas fa-external-link-alt"></i>
+                            Visit Official Website
+                        </a>
+                        
+                        <a href="mailto:contact@arrayblocks.net" class="cta-btn secondary-btn">
+                            <i class="fas fa-envelope"></i>
+                            Contact Sales Team
+                        </a>
+                    </div>
+                    
+                    <div class="trust-badge">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Trusted by 100+ Businesses Worldwide • ISO Certified • 24/7 Support</span>
+                    </div>
+                </div>
+            </section>
         </main>
-        
-        <footer class="footer">
+
+        <!-- Footer -->
+        <footer class="main-footer">
             <div class="footer-content">
-                <div class="footer-logo">
-                    <i class="fas fa-cubes"></i> ArrayBlocks
-                </div>
-                <p class="copyright">© 2023 ArrayBlocks. All rights reserved.</p>
-                <p class="page-info">GitHub Page | Official Redirect</p>
-                
-                <div class="social-icons">
-                    <a href="https://www.facebook.com/people/Array-Blocks/61582786569261/" title="Facebook" target="_blank">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                    <a href="https://x.com/ArrayBlocksNet" title="Twitter/X" target="_blank">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/company/arrayblocks/" title="LinkedIn" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/arrayblocks" title="GitHub" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="https://arrayblocks.net/wp-content/uploads/al_opt_content/IMAGE/arrayblocks.net/wp-content/uploads/2025/12/cropped-arrayblocks-logo.png.bv.webp?bv_host=arrayblocks.net" 
+                             alt="ArrayBlocks Logo" 
+                             class="footer-logo-img">
+                        <div class="footer-logo-text">
+                            <h3>ArrayBlocks</h3>
+                            <p>Technology & Innovation</p>
+                        </div>
+                    </div>
+                    <p class="footer-tagline">
+                        Delivering cutting-edge technology solutions since 2018
+                    </p>
                 </div>
                 
-                <p class="main-website">
-                    Main Website: <a href="https://arrayblocks.net/">https://arrayblocks.net/</a>
-                </p>
-                
-                <div class="contact-info">
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <a href="https://arrayblocks.net/#services" target="_blank">Services</a>
+                        <a href="https://arrayblocks.net/#portfolio" target="_blank">Portfolio</a>
+                        <a href="https://arrayblocks.net/#about" target="_blank">About Us</a>
+                        <a href="https://arrayblocks.net/#contact" target="_blank">Contact</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <a href="https://arrayblocks.net/#blockchain" target="_blank">Blockchain</a>
+                        <a href="https://arrayblocks.net/#mlm" target="_blank">MLM Software</a>
+                        <a href="https://arrayblocks.net/#web" target="_blank">Web Development</a>
+                        <a href="https://arrayblocks.net/#app" target="_blank">App Development</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <a href="https://facebook.com/people/Array-Blocks/61582786569261/" target="_blank">
+                            <i class="fab fa-facebook"></i> Facebook
+                        </a>
+                        <a href="https://x.com/ArrayBlocksNet" target="_blank">
+                            <i class="fab fa-twitter"></i> Twitter / X
+                        </a>
+                        <a href="https://linkedin.com/company/arrayblocks/" target="_blank">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com/arrayblocks" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-info">
                     <p><i class="fas fa-envelope"></i> contact@arrayblocks.net</p>
+                    <p><i class="fas fa-globe"></i> https://arrayblocks.net</p>
                 </div>
+                <p class="copyright">
+                    © 2018-2023 ArrayBlocks. All rights reserved. | This is the official GitHub page.
+                </p>
             </div>
         </footer>
     </div>
