@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Software Development in Panipat | Unlocking Innovation for Businesses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --gradient-primary: linear-gradient(135deg, #00b26c, #0066ff);
+            --gradient-secondary: linear-gradient(135deg, #0066ff, #00b26c);
+            --color-accent: #0066ff;
+            --color-accent-light: #00b26c;
+            --color-dark: #1a1a2e;
+            --color-gray: #f8f9fa;
+            --color-text: #333;
+            --color-text-light: #666;
+            --font-heading: 'Playfair Display', serif;
+            --font-body: 'Inter', sans-serif;
+            --border-radius: 12px;
+            --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            --box-shadow-heavy: 0 20px 40px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+        
+        body {
+            font-family: var(--font-body);
+            color: var(--color-text);
+            line-height: 1.6;
+            background-color: #fff;
+            overflow-x: hidden;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Pattern Background */
+        .pattern-bg {
+            background-color: #ffffff;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%230066ff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        
+        /* Hero Section */
+        .hero {
+            padding: 80px 0 60px;
+            background: linear-gradient(rgba(255,255,255,0.97), rgba(255,255,255,0.95)), var(--gradient-primary);
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s ease infinite;
+        }
+        
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .hero-badge {
+            display: inline-block;
+            background: var(--gradient-primary);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 25px;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 15px rgba(0, 102, 255, 0.3);
+            transition: var(--transition);
+        }
+        
+        .hero-badge:hover {
+            transform: translateY(-3px);
+        }
+        
+        .hero-title {
+            font-family: var(--font-heading);
+            font-size: 52px;
+            line-height: 1.2;
+            margin-bottom: 25px;
+            color: var(--color-dark);
+            font-weight: 800;
+        }
+        
+        .hero-subtitle {
+            font-size: 22px;
+            color: var(--color-text-light);
+            margin-bottom: 40px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .hero-meta {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            color: var(--color-text-light);
+            font-size: 14px;
+            margin-top: 40px;
+        }
+        
+        .hero-meta span {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            box-shadow: var(--box-shadow);
+        }
+        
+        /* Image Section */
+        .image-section {
+            padding: 40px 0;
+            text-align: center;
+        }
+        
+        .image-container {
+            position: relative;
+            max-width: 900px;
+            margin: 0 auto;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--box-shadow-heavy);
+            transition: var(--transition);
+        }
+        
+        .image-container:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+        }
+        
+        .image-placeholder {
+            background: var(--gradient-primary);
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            padding: 40px;
+        }
+        
+        .image-placeholder i {
+            font-size: 80px;
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+        
+        .image-placeholder h3 {
+            font-family: var(--font-heading);
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+        
+        .image-caption {
+            padding: 20px;
+            background: white;
+            font-style: italic;
+            color: var(--color-text-light);
+            border-top: 1px solid #eee;
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            padding: 80px 0;
+            text-align: center;
+            background: var(--gradient-secondary);
+            color: white;
+            margin: 60px 0;
+            border-radius: var(--border-radius);
+            position: relative;
+            overflow: hidden;
+        }
+        
+       .cta-section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("data:image/svg+xml,...");
+    opacity: 0.3;
+    pointer-events: none; 
+}
+
+        
+        .cta-title {
+            font-family: var(--font-heading);
+            font-size: 42px;
+            margin-bottom: 20px;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .cta-title:after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: -10px;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: white;
+            border-radius: 2px;
+        }
+        
+        .cta-description {
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto 40px;
+            opacity: 0.9;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: var(--color-accent);
+            text-decoration: none;
+            padding: 16px 35px;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            font-size: 18px;
+            transition: var(--transition);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+        }
+        
+        .cta-button.secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+        
+        .cta-button.secondary:hover {
+            background: white;
+            color: var(--color-accent);
+        }
+        
+        /* Article Content */
+        .article-container {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 60px;
+            padding: 60px 0;
+        }
+        
+        .article-content {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+        
+        .article-content h2 {
+            font-family: var(--font-heading);
+            font-size: 32px;
+            margin: 50px 0 20px;
+            color: var(--color-dark);
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .article-content h2:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 80px;
+            height: 4px;
+            background: var(--gradient-primary);
+            border-radius: 2px;
+        }
+        
+        .article-content h3 {
+            font-family: var(--font-heading);
+            font-size: 24px;
+            margin: 40px 0 15px;
+            color: var(--color-dark);
+        }
+        
+        .article-content p {
+            margin-bottom: 25px;
+            color: var(--color-text);
+        }
+        
+        .article-content ul {
+            margin-bottom: 30px;
+            padding-left: 20px;
+        }
+        
+        .article-content li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 10px;
+        }
+        
+        .article-content li:before {
+            content: '✓';
+            color: var(--color-accent-light);
+            font-weight: bold;
+            position: absolute;
+            left: -20px;
+        }
+        
+        .highlight-box {
+            background: var(--gradient-primary);
+            color: white;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            margin: 40px 0;
+            box-shadow: var(--box-shadow);
+        }
+        
+        .highlight-box h3 {
+            font-family: var(--font-heading);
+            margin-top: 0;
+            color: white;
+            font-size: 26px;
+        }
+        
+        .highlight-box h3:after {
+            background: white;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 40px 0;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 25px 15px;
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+        }
+        
+        .stat-item:hover {
+            transform: translateY(-10px);
+        }
+        
+        .stat-number {
+            font-family: var(--font-heading);
+            font-size: 42px;
+            font-weight: 700;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            font-size: 16px;
+            color: var(--color-text-light);
+        }
+        
+        /* Sidebar */
+        .sidebar {
+            position: sticky;
+            top: 20px;
+            height: fit-content;
+        }
+        
+        .sidebar-widget {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            padding: 30px;
+            margin-bottom: 30px;
+            transition: var(--transition);
+        }
+        
+        .sidebar-widget:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--box-shadow-heavy);
+        }
+        
+        .widget-title {
+            font-family: var(--font-heading);
+            font-size: 22px;
+            margin-bottom: 20px;
+            color: var(--color-dark);
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .widget-title:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50px;
+            height: 3px;
+            background: var(--gradient-primary);
+            border-radius: 2px;
+        }
+        
+        .services-list {
+            list-style: none;
+        }
+        
+        .services-list li {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .services-list li:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+        
+        .services-list a {
+            text-decoration: none;
+            color: var(--color-text);
+            display: flex;
+            align-items: center;
+            transition: var(--transition);
+        }
+        
+        .services-list a:hover {
+            color: var(--color-accent);
+        }
+        
+        .services-list i {
+            margin-right: 10px;
+            color: var(--color-accent-light);
+        }
+        
+        .cta-widget {
+            background: var(--gradient-primary);
+            color: white;
+            text-align: center;
+        }
+        
+        .cta-widget .widget-title {
+            color: white;
+        }
+        
+        .cta-widget .widget-title:after {
+            background: white;
+        }
+        
+        .sidebar-cta-button {
+            display: inline-block;
+            background: white;
+            color: var(--color-accent);
+            text-decoration: none;
+            padding: 14px 30px;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            margin-top: 15px;
+            transition: var(--transition);
+        }
+        
+        .sidebar-cta-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        
+/* Footer */
+.main-footer {
+    background: var(--card-bg);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-logo-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    object-fit: contain;
+    border: 2px solid rgba(0, 178, 108, 0.2);
+}
+
+.footer-logo-text h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--dark-color);
+    margin-bottom: 5px;
+}
+
+.footer-logo-text p {
+    color: var(--gray-color);
+    font-size: 14px;
+}
+
+.footer-tagline {
+    color: var(--gray-color);
+    font-size: 15px;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.footer-dubai-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(90deg, #00b26c, #0066ff);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--dark-color);
+    margin-bottom: 20px;
+}
+
+.footer-column a {
+    display: block;
+    color: var(--gray-color);
+    text-decoration: none;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-column a:hover {
+    color: var(--secondary-color);
+    transform: translateX(5px);
+}
+
+.footer-bottom {
+    padding-top: 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.footer-info p {
+    color: var(--gray-color);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-info i {
+    color: var(--secondary-color);
+}
+
+.copyright {
+    color: var(--gray-color);
+    font-size: 14px;
+    margin-top: 15px;
+}
+        
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .article-container {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .sidebar {
+                position: static;
+            }
+            
+            .hero-title {
+                font-size: 40px;
+            }
+            
+          
+        }
+        
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 36px;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .article-content h2 {
+                font-size: 28px;
+            }
+            
+            .hero-meta {
+                flex-direction: column;
+                gap: 10px;
+                align-items: center;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .cta-title {
+                font-size: 36px;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero-title {
+                font-size: 30px;
+            }
+            
+            .hero-subtitle {
+                font-size: 18px;
+            }
+            
+            .article-content {
+                font-size: 16px;
+            }
+            
+            
+            
+            .image-placeholder h3 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero pattern-bg">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i> TOP RATED SOFTWARE DEVELOPMENT
+                </div>
+                <h1 class="hero-title">Best Software Development in Panipat: Unlocking Innovation for Businesses</h1>
+                <p class="hero-subtitle">How Panipat is emerging as a hub for cutting-edge software solutions that drive business growth and digital transformation.</p>
+                <div class="hero-meta">
+                    <span><i class="far fa-calendar"></i> June 15, 2023</span>
+                    <span><i class="far fa-clock"></i> 8 min read</span>
+                    <span><i class="far fa-user"></i> by Tech Insights Team</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Section -->
+    <section class="image-section">
+        <div class="container">
+            <div class="image-container">
+                <div class="image-placeholder">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Panipat's Software Development Ecosystem</h3>
+                    <p>Innovative solutions driving digital transformation for businesses across industries</p>
+                </div>
+                <div class="image-caption">
+                    Panipat's growing IT infrastructure and skilled talent pool make it an ideal destination for software development.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Article Content -->
+    <div class="container">
+        <div class="article-container">
+            <!-- Article Content -->
+            <main class="article-content">
+                <p>In today's fast-paced digital world, software has become the backbone of modern businesses. From streamlining operations to improving customer engagement, the right software solutions can transform the way companies operate. Panipat, a city known for its industrial and textile heritage, is rapidly emerging as a hub for software development. With a growing number of skilled developers, innovative startups, and established IT companies, Panipat is now a promising destination for businesses seeking high-quality software solutions.</p>
+                
+                <!-- Stats Section -->
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">40%</div>
+                        <div class="stat-label">Cost Savings vs Metro Cities</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">150+</div>
+                        <div class="stat-label">Tech Companies in Panipat</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">30%</div>
+                        <div class="stat-label">Annual Growth in IT Sector</div>
+                    </div>
+                </div>
+                
+                <h2>Why Panipat is Becoming a Software Development Hub</h2>
+                <p>Panipat's emergence as a software development hub is not accidental. The city has witnessed a surge in IT infrastructure, affordable office spaces, and access to highly skilled professionals. Local educational institutions are increasingly offering courses in computer science, programming, and digital technologies, creating a talent pool ready to take on complex software projects.</p>
+                
+                <p>Moreover, the cost advantage of hiring developers in Panipat compared to larger metropolitan cities makes it an attractive choice for startups and small to medium enterprises. Businesses can access premium services without burning a hole in their budget.</p>
+                
+                <h2>Key Services Offered by Software Development Companies in Panipat</h2>
+                <p>Software development is not just about writing code. It encompasses a range of services that cater to the specific needs of businesses. Some of the top services offered by software development companies in Panipat include:</p>
+                
+                <h3>1. Custom Software Development</h3>
+                <p>Every business has unique needs, and generic software often fails to address them. Custom software development ensures that the solutions are tailored to meet the exact requirements of a company. Whether it's an inventory management system for textile manufacturers in Panipat or a CRM platform for service-based businesses, developers can create software that aligns perfectly with business goals.</p>
+                
+                <h3>2. Web Development and Design</h3>
+                <p>A strong online presence is crucial for any business today. Software companies in Panipat specialize in creating responsive, visually appealing, and user-friendly websites. From simple business websites to complex e-commerce platforms, developers ensure seamless user experience and optimized performance.</p>
+                
+                <!-- Highlight Box -->
+                <div class="highlight-box">
+                    <h3>Why Choose Panipat for Software Development?</h3>
+                    <p>Panipat offers the perfect blend of skilled talent, cost-effectiveness, and modern infrastructure. With lower operational costs than metro cities and a growing ecosystem of tech companies, Panipat provides exceptional value for businesses looking to develop software solutions.</p>
+                </div>
+                
+                <h3>3. Mobile App Development</h3>
+                <p>With the rise of smartphones, mobile applications have become essential for customer engagement. Panipat's software developers offer iOS and Android app development services, using the latest frameworks and technologies. Businesses can leverage mobile apps to boost sales, enhance customer service, and maintain brand loyalty.</p>
+                
+               
+                
+                <h2>Why Choose Software Development in Panipat</h2>
+                <p>Selecting the right software development partner is vital for business growth. Here's why Panipat stands out:</p>
+                
+                <ul>
+                    <li><strong>Skilled Professionals:</strong> Panipat boasts a pool of highly talented developers proficient in Java, Python, PHP, .NET, and emerging technologies like AI, blockchain, and IoT.</li>
+                    <li><strong>Cost-Effective Solutions:</strong> Compared to major IT hubs like Delhi, Bangalore, or Pune, software development in Panipat is budget-friendly without compromising on quality.</li>
+                    <li><strong>Quick Turnaround Time:</strong> Local software companies understand the urgency of project delivery. They combine agile methodologies with modern development tools.</li>
+                    <li><strong>Client-Centric Approach:</strong> Panipat-based companies focus on understanding client requirements and delivering personalized solutions.</li>
+                </ul>
+                
+                <h2>Emerging Technologies Driving Panipat's Software Industry</h2>
+                <p>The software development landscape in Panipat is evolving with the adoption of cutting-edge technologies:</p>
+                
+                <ul>
+                    <li><strong>Artificial Intelligence (AI) and Machine Learning (ML):</strong> AI-powered software helps businesses automate tasks, predict trends, and improve customer experiences.</li>
+                    <li><strong>Blockchain Technology:</strong> Companies are integrating blockchain for secure transactions, digital contracts, and supply chain transparency.</li>
+                    <li><strong>Internet of Things (IoT):</strong> IoT solutions allow businesses to monitor devices, optimize processes, and enhance operational efficiency.</li>
+                    <li><strong>Cloud Computing:</strong> Cloud-based software provides scalability, remote accessibility, and cost savings for businesses of all sizes.</li>
+                </ul>
+                
+                <h2>Conclusion</h2>
+                <p>Panipat is fast becoming a significant player in India's software development industry. With its talented workforce, cost advantages, and growing IT infrastructure, businesses can access high-quality, customized software solutions without stretching their budgets. From startups to established enterprises, software development in Panipat is opening doors to innovation, efficiency, and digital transformation.</p>
+                
+                <p>If you are looking to take your business to the next level, partnering with a Panipat-based software development company can be the smartest decision. With the perfect blend of skill, technology, and client-centric services, Panipat's software industry is poised to redefine the way businesses operate in the digital age.</p>
+            </main>
+            
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Our Services</h3>
+                    <ul class="services-list">
+                        <li>
+                    <a href="https://arrayblocks.net/services/blockchain-development/">
+                        <i class="fas fa-link"></i> Blockchain Development
+                    </a>
+                    </li>
+
+                    <li>
+                    <a href="https://arrayblocks.net/services/blockchain-development/dapp-development/">
+                        <i class="fas fa-exchange-alt"></i> Defi Development
+                    </a>
+                    </li>
+
+                    <li>
+                    <a href="https://arrayblocks.net/services/website-development/">
+                        <i class="fas fa-code"></i> Website Development 
+                    </a>
+                    </li>
+
+                    <li>
+                    <a href="https://arrayblocks.net/services/mobile-app-development/">
+                        <i class="fas fa-mobile"></i> Mobile App Development
+                    </a>
+                    </li>
+
+                    <li>
+                    <a href="https://arrayblocks.net/services/seo/">
+                        <i class="fas fa-search-dollar"></i> Search Engine Optimization
+                    </a>
+                    </li>
+
+                    <li>
+                    <a href="#">
+                        <i class="fas fa-bullhorn"></i> Digital Marketing
+                    </a>
+                    </li>
+
+                        
+                    </ul>
+                </div>
+                
+                <div class="sidebar-widget cta-widget">
+                    <h3 class="widget-title">Need Software Solutions?</h3>
+                    <p>Get in touch with our Panipat-based team for customized software solutions that drive business growth.</p>
+                    <a href="#" class="sidebar-cta-button">Contact Us Now</a>
+                </div>
+                
+                <div class="sidebar-widget">
+                   <h3 class="widget-title">Popular Articles</h3>
+                    <ul class="services-list">
+                        <li>
+                            <a href="https://arrayblocks.net/blog/what-is-meta-mask/">
+                                <i class="far fa-file-alt"></i> What is MetaMask?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://arrayblocks.net/blog/what-is-shiba-inu-coin-burn/">
+                                <i class="far fa-file-alt"></i> What is Shiba Inu Coin Burn?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://arrayblocks.net/blog/tether-club/">
+                                <i class="far fa-file-alt"></i> Tether Club: DeFi Insights
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://arrayblocks.net/blog/market-awareness/">
+                                <i class="far fa-file-alt"></i> More Latest Blogs
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </aside>
+        </div>
+    </div>
+
+     
+                <!-- CTA Section -->
+                <div class="cta-section">
+                    <h2 class="cta-title">Ready to Transform Your Business?</h2>
+                    <p class="cta-description">Partner with Panipat's leading software development company to build custom solutions that drive growth and innovation.</p>
+                    <div class="cta-buttons">
+                        <a href="https://arrayblocks.net/contact-us/" class="cta-button">Get Free Consultation <i class="fas fa-arrow-right"></i></a>
+                        <a href="https://arrayblocks.net/" class="cta-button secondary">View Our Website <i class="fas fa-external-link"></i></a>
+                    </div>
+                </div>
+
+  
+
+    <script>
+        // Simple script for interactive elements
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if(targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if(targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Add animation to stats when they come into view
+            const observerOptions = {
+                threshold: 0.5
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if(entry.isIntersecting) {
+                        entry.target.classList.add('animated');
+                    }
+                });
+            }, observerOptions);
+            
+            // Observe stat items
+            document.querySelectorAll('.stat-item').forEach(item => {
+                observer.observe(item);
+            });
+            
+        
+            
+            // Social media link interactions
+            document.querySelectorAll('.social-icon').forEach(icon => {
+                icon.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    alert('Social media link clicked! In a real implementation, this would navigate to the respective social media profile.');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
